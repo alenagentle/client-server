@@ -1,0 +1,5 @@
+<h3>Данные с сервера:</h3>
+<div><button >Получить данные с сервера </button></div>
+<div  *ngFor="let user of users">
+  <app-list-item [user]="user" ></app-list-item>
+</div>

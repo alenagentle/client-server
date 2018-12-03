@@ -1,0 +1,7 @@
+<h3>Список пользователей</h3>
+<div  *ngFor="let user of users">
+  <app-list-item [user]="user" ></app-list-item> <button  class = "but" (click)="deleteUser(this.user)" >Удалить</button>
+</div>
+<div>
+  <label>Всего {{users.length | end}} </label>
+</div>

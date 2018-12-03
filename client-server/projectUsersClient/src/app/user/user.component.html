@@ -1,0 +1,19 @@
+<form [formGroup]="myForm" (ngSubmit)="addUser()">
+<h3>Добавить пользователя</h3>
+<p>
+  <label for="surname">Фамилия</label>
+  <input id="surname" type="text" formControlName="surname">
+</p>
+<p>
+  <label for="name">Имя</label>
+  <input id="name" type="text" formControlName="name">
+</p>
+  <div class="alert alert-danger" *ngIf="myForm.controls['name'].invalid && myForm.controls['name'].touched">
+    Некорректное имя
+  </div>
+<p>
+  <label for="patronymic">Отчество</label>
+  <input id="patronymic" type="text" formControlName="patronymic">
+</p>
+  <button>Добавить</button>
+</form>

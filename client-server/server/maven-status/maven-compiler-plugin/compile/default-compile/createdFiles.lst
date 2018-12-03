@@ -1,0 +1,5 @@
+com\mars\SummaryRepository.class
+com\mars\MyCORSFilter.class
+com\mars\Summary.class
+com\mars\SpringServerApplication.class
+com\mars\SummaryController.class

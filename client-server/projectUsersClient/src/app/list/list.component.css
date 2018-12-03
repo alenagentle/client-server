@@ -1,0 +1,13 @@
+.but {
+	
+	position: relative;
+	left: 20px;
+}
+
+.b {
+	display:flex;
+	flex-flow: row nowrap;
+	color: red;
+}
+
+

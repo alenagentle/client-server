@@ -1,0 +1,3 @@
+<app-user [(user)]="currentUser" (userChange)="addUser()"></app-user>
+<app-list [users]="users" (userDelete)="deleteUser($event)"></app-list>
+<app-datalist [users]="objects" (click)="getData()"></app-datalist>
